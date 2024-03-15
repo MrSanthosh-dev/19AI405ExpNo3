@@ -102,7 +102,9 @@ G F <BR>
 <hr>
 ['0', '1', '2', '3', '4']
 <hr>
-### Program:
+
+#  Program:
+
 ```
 from collections import deque
 from collections import defaultdict
@@ -134,6 +136,7 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 ```
+
 ```
 from collections import deque
 from collections import defaultdict
@@ -166,7 +169,9 @@ traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 ```
 ### Output:
+
 ![image](https://github.com/MrSanthosh-dev/19AI405ExpNo3/assets/117916573/2d70bacd-47a1-4d78-8696-951573320eec)
+
 ![image](https://github.com/MrSanthosh-dev/19AI405ExpNo3/assets/117916573/58617507-e13d-4cd7-9c65-414d0503b5e2)
 
 <h3>Result:</h3>
